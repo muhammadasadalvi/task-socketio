@@ -1,0 +1,26 @@
+server/node_modules
+chat-app/node_modules
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+chat-app/node_modules
+chat-app/.pnp
+chat-app/.pnp.js
+
+# testing
+chat-app//coverage
+
+# production
+chat-app//build
+
+# misc
+chat-app/.DS_Store
+chat-app/.env.local
+chat-app/.env.development.local
+chat-app/.env.test.local
+chat-app/.env.production.local
+
+chat-app/npm-debug.log*
+chat-app/yarn-debug.log*
+chat-app/yarn-error.log*
